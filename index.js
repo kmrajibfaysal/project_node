@@ -1,5 +1,8 @@
-const faysal = 44;
-const rajib = 99;
+const people = require('./people');
 
-console.log(faysal + rajib);
-console.log(55);
+console.log(people);
+const faysal = () => {
+    console.log(6 + 7);
+};
+
+faysal();
